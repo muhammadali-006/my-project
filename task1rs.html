@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gulberg Rickshaw Stand</title>
+    <style>
+        /* The Parking Lot (Container) */
+        .parking {
+            height: 300px;
+            border: 3px solid #333;
+            display: flex;                 /* Activate Flexbox */
+            justify-content: space-between; /* Spread rickshaws across width */
+            align-items: center;           /* Vertical center */
+            padding: 0 40px;               /* Small breathing space on sides */
+            background-color: #f5f5f5;
+        }
+
+        /* The Rickshaws (Items) */
+        .rickshaw {
+            width: 100px;
+            height: 100px;
+            background-color: #2ecc71;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parking">
+        <div class="rickshaw">Rickshaw 1</div>
+        <div class="rickshaw">Rickshaw 2</div>
+        <div class="rickshaw">Rickshaw 3</div>
+    </div>
+
+</body>
+</html>
